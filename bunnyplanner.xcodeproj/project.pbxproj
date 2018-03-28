@@ -1,0 +1,591 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		DB2C303F206C4F6100CC6775 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB2C303E206C4F6100CC6775 /* AppDelegate.swift */; };
+		DB2C3041206C4F6100CC6775 /* RootViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB2C3040206C4F6100CC6775 /* RootViewController.swift */; };
+		DB2C3043206C4F6100CC6775 /* DataViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB2C3042206C4F6100CC6775 /* DataViewController.swift */; };
+		DB2C3045206C4F6200CC6775 /* ModelController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB2C3044206C4F6200CC6775 /* ModelController.swift */; };
+		DB2C3048206C4F6200CC6775 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DB2C3046206C4F6200CC6775 /* Main.storyboard */; };
+		DB2C304A206C4F6600CC6775 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DB2C3049206C4F6600CC6775 /* Assets.xcassets */; };
+		DB2C304D206C4F6600CC6775 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DB2C304B206C4F6600CC6775 /* LaunchScreen.storyboard */; };
+		DB2C3058206C4F6600CC6775 /* bunnyplannerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB2C3057206C4F6600CC6775 /* bunnyplannerTests.swift */; };
+		DB2C3063206C4F6600CC6775 /* bunnyplannerUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB2C3062206C4F6600CC6775 /* bunnyplannerUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		DB2C3054206C4F6600CC6775 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DB2C3033206C4F6100CC6775 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DB2C303A206C4F6100CC6775;
+			remoteInfo = bunnyplanner;
+		};
+		DB2C305F206C4F6600CC6775 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DB2C3033206C4F6100CC6775 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DB2C303A206C4F6100CC6775;
+			remoteInfo = bunnyplanner;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		DB2C303B206C4F6100CC6775 /* bunnyplanner.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = bunnyplanner.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		DB2C303E206C4F6100CC6775 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		DB2C3040206C4F6100CC6775 /* RootViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RootViewController.swift; sourceTree = "<group>"; };
+		DB2C3042206C4F6100CC6775 /* DataViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataViewController.swift; sourceTree = "<group>"; };
+		DB2C3044206C4F6200CC6775 /* ModelController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ModelController.swift; sourceTree = "<group>"; };
+		DB2C3047206C4F6200CC6775 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		DB2C3049206C4F6600CC6775 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		DB2C304C206C4F6600CC6775 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		DB2C304E206C4F6600CC6775 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DB2C3053206C4F6600CC6775 /* bunnyplannerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = bunnyplannerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		DB2C3057206C4F6600CC6775 /* bunnyplannerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = bunnyplannerTests.swift; sourceTree = "<group>"; };
+		DB2C3059206C4F6600CC6775 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DB2C305E206C4F6600CC6775 /* bunnyplannerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = bunnyplannerUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		DB2C3062206C4F6600CC6775 /* bunnyplannerUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = bunnyplannerUITests.swift; sourceTree = "<group>"; };
+		DB2C3064206C4F6600CC6775 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		DB2C3038206C4F6100CC6775 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DB2C3050206C4F6600CC6775 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DB2C305B206C4F6600CC6775 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		DB2C3032206C4F6100CC6775 = {
+			isa = PBXGroup;
+			children = (
+				DB2C303D206C4F6100CC6775 /* bunnyplanner */,
+				DB2C3056206C4F6600CC6775 /* bunnyplannerTests */,
+				DB2C3061206C4F6600CC6775 /* bunnyplannerUITests */,
+				DB2C303C206C4F6100CC6775 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		DB2C303C206C4F6100CC6775 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				DB2C303B206C4F6100CC6775 /* bunnyplanner.app */,
+				DB2C3053206C4F6600CC6775 /* bunnyplannerTests.xctest */,
+				DB2C305E206C4F6600CC6775 /* bunnyplannerUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		DB2C303D206C4F6100CC6775 /* bunnyplanner */ = {
+			isa = PBXGroup;
+			children = (
+				DB2C303E206C4F6100CC6775 /* AppDelegate.swift */,
+				DB2C3040206C4F6100CC6775 /* RootViewController.swift */,
+				DB2C3042206C4F6100CC6775 /* DataViewController.swift */,
+				DB2C3044206C4F6200CC6775 /* ModelController.swift */,
+				DB2C3046206C4F6200CC6775 /* Main.storyboard */,
+				DB2C3049206C4F6600CC6775 /* Assets.xcassets */,
+				DB2C304B206C4F6600CC6775 /* LaunchScreen.storyboard */,
+				DB2C304E206C4F6600CC6775 /* Info.plist */,
+			);
+			path = bunnyplanner;
+			sourceTree = "<group>";
+		};
+		DB2C3056206C4F6600CC6775 /* bunnyplannerTests */ = {
+			isa = PBXGroup;
+			children = (
+				DB2C3057206C4F6600CC6775 /* bunnyplannerTests.swift */,
+				DB2C3059206C4F6600CC6775 /* Info.plist */,
+			);
+			path = bunnyplannerTests;
+			sourceTree = "<group>";
+		};
+		DB2C3061206C4F6600CC6775 /* bunnyplannerUITests */ = {
+			isa = PBXGroup;
+			children = (
+				DB2C3062206C4F6600CC6775 /* bunnyplannerUITests.swift */,
+				DB2C3064206C4F6600CC6775 /* Info.plist */,
+			);
+			path = bunnyplannerUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		DB2C303A206C4F6100CC6775 /* bunnyplanner */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DB2C3067206C4F6600CC6775 /* Build configuration list for PBXNativeTarget "bunnyplanner" */;
+			buildPhases = (
+				DB2C3037206C4F6100CC6775 /* Sources */,
+				DB2C3038206C4F6100CC6775 /* Frameworks */,
+				DB2C3039206C4F6100CC6775 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = bunnyplanner;
+			productName = bunnyplanner;
+			productReference = DB2C303B206C4F6100CC6775 /* bunnyplanner.app */;
+			productType = "com.apple.product-type.application";
+		};
+		DB2C3052206C4F6600CC6775 /* bunnyplannerTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DB2C306A206C4F6600CC6775 /* Build configuration list for PBXNativeTarget "bunnyplannerTests" */;
+			buildPhases = (
+				DB2C304F206C4F6600CC6775 /* Sources */,
+				DB2C3050206C4F6600CC6775 /* Frameworks */,
+				DB2C3051206C4F6600CC6775 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				DB2C3055206C4F6600CC6775 /* PBXTargetDependency */,
+			);
+			name = bunnyplannerTests;
+			productName = bunnyplannerTests;
+			productReference = DB2C3053206C4F6600CC6775 /* bunnyplannerTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		DB2C305D206C4F6600CC6775 /* bunnyplannerUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DB2C306D206C4F6600CC6775 /* Build configuration list for PBXNativeTarget "bunnyplannerUITests" */;
+			buildPhases = (
+				DB2C305A206C4F6600CC6775 /* Sources */,
+				DB2C305B206C4F6600CC6775 /* Frameworks */,
+				DB2C305C206C4F6600CC6775 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				DB2C3060206C4F6600CC6775 /* PBXTargetDependency */,
+			);
+			name = bunnyplannerUITests;
+			productName = bunnyplannerUITests;
+			productReference = DB2C305E206C4F6600CC6775 /* bunnyplannerUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		DB2C3033206C4F6100CC6775 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0930;
+				LastUpgradeCheck = 0930;
+				ORGANIZATIONNAME = "Miss Geek Bunny";
+				TargetAttributes = {
+					DB2C303A206C4F6100CC6775 = {
+						CreatedOnToolsVersion = 9.3;
+					};
+					DB2C3052206C4F6600CC6775 = {
+						CreatedOnToolsVersion = 9.3;
+						TestTargetID = DB2C303A206C4F6100CC6775;
+					};
+					DB2C305D206C4F6600CC6775 = {
+						CreatedOnToolsVersion = 9.3;
+						TestTargetID = DB2C303A206C4F6100CC6775;
+					};
+				};
+			};
+			buildConfigurationList = DB2C3036206C4F6100CC6775 /* Build configuration list for PBXProject "bunnyplanner" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = DB2C3032206C4F6100CC6775;
+			productRefGroup = DB2C303C206C4F6100CC6775 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				DB2C303A206C4F6100CC6775 /* bunnyplanner */,
+				DB2C3052206C4F6600CC6775 /* bunnyplannerTests */,
+				DB2C305D206C4F6600CC6775 /* bunnyplannerUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		DB2C3039206C4F6100CC6775 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DB2C304D206C4F6600CC6775 /* LaunchScreen.storyboard in Resources */,
+				DB2C304A206C4F6600CC6775 /* Assets.xcassets in Resources */,
+				DB2C3048206C4F6200CC6775 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DB2C3051206C4F6600CC6775 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DB2C305C206C4F6600CC6775 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		DB2C3037206C4F6100CC6775 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DB2C3041206C4F6100CC6775 /* RootViewController.swift in Sources */,
+				DB2C3045206C4F6200CC6775 /* ModelController.swift in Sources */,
+				DB2C3043206C4F6100CC6775 /* DataViewController.swift in Sources */,
+				DB2C303F206C4F6100CC6775 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DB2C304F206C4F6600CC6775 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DB2C3058206C4F6600CC6775 /* bunnyplannerTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DB2C305A206C4F6600CC6775 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DB2C3063206C4F6600CC6775 /* bunnyplannerUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		DB2C3055206C4F6600CC6775 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = DB2C303A206C4F6100CC6775 /* bunnyplanner */;
+			targetProxy = DB2C3054206C4F6600CC6775 /* PBXContainerItemProxy */;
+		};
+		DB2C3060206C4F6600CC6775 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = DB2C303A206C4F6100CC6775 /* bunnyplanner */;
+			targetProxy = DB2C305F206C4F6600CC6775 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		DB2C3046206C4F6200CC6775 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DB2C3047206C4F6200CC6775 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		DB2C304B206C4F6600CC6775 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DB2C304C206C4F6600CC6775 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		DB2C3065206C4F6600CC6775 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		DB2C3066206C4F6600CC6775 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		DB2C3068206C4F6600CC6775 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = bunnyplanner/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.missgeekbunny.bunnyplanner;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		DB2C3069206C4F6600CC6775 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = bunnyplanner/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.missgeekbunny.bunnyplanner;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		DB2C306B206C4F6600CC6775 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = bunnyplannerTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.missgeekbunny.bunnyplannerTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/bunnyplanner.app/bunnyplanner";
+			};
+			name = Debug;
+		};
+		DB2C306C206C4F6600CC6775 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = bunnyplannerTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.missgeekbunny.bunnyplannerTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/bunnyplanner.app/bunnyplanner";
+			};
+			name = Release;
+		};
+		DB2C306E206C4F6600CC6775 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = bunnyplannerUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.missgeekbunny.bunnyplannerUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = bunnyplanner;
+			};
+			name = Debug;
+		};
+		DB2C306F206C4F6600CC6775 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = bunnyplannerUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.missgeekbunny.bunnyplannerUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = bunnyplanner;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		DB2C3036206C4F6100CC6775 /* Build configuration list for PBXProject "bunnyplanner" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DB2C3065206C4F6600CC6775 /* Debug */,
+				DB2C3066206C4F6600CC6775 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DB2C3067206C4F6600CC6775 /* Build configuration list for PBXNativeTarget "bunnyplanner" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DB2C3068206C4F6600CC6775 /* Debug */,
+				DB2C3069206C4F6600CC6775 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DB2C306A206C4F6600CC6775 /* Build configuration list for PBXNativeTarget "bunnyplannerTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DB2C306B206C4F6600CC6775 /* Debug */,
+				DB2C306C206C4F6600CC6775 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DB2C306D206C4F6600CC6775 /* Build configuration list for PBXNativeTarget "bunnyplannerUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DB2C306E206C4F6600CC6775 /* Debug */,
+				DB2C306F206C4F6600CC6775 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = DB2C3033206C4F6100CC6775 /* Project object */;
+}
